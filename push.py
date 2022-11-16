@@ -46,7 +46,6 @@ def acquireToken():
 
 def addProperty(objectID, timestamp, statKey, value):
     APIEndpoint = FQDN + "/resources/{}/properties".format(objectID)
-    propertyValue = "ThisIsATest"
     timestamplist = []
     timestamplist.append(timestamp)
     valueslist=[]
